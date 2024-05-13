@@ -9,10 +9,10 @@ app.post('/', (req: Request, res: Response) => {
   console.log(req.body);
   res.send(`Welcome ${name}`);
 });
-app.get('/', (req: Request, res: Response) => res.send('hello worlds'));
+app.get('/', (req: Request, res: Response) => res.send('Teohaik hello from Crete!'));
 
 app.listen(PORT, () => {
   console.log(
-    'Server is Successfully Running, and       App is listening on port ' + PORT
+    'Teo Server is Successfully Running, and       App is listening on port ' + PORT
   );
 });
